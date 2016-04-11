@@ -75,6 +75,7 @@ class ViewController: UIViewController
             .imageByApplyingFilter("CIAffineTile", withInputParameters: nil)
             .imageByCroppingToRect(CGRect(x:0, y: 0, width: 500, height: 500))
             .imageByApplyingFilter("NormalMap", withInputParameters: nil)
+            .imageByApplyingFilter("CIColorControls", withInputParameters: ["inputContrast": 2.5])
         
         let cgNormalMap = context.createCGImage(ciCirclesImage!,
                                                 fromRect: ciCirclesImage!.extent)

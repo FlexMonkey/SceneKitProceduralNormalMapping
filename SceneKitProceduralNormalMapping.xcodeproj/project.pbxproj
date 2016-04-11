@@ -13,6 +13,7 @@
 		3E5AD1E41CBA91F900CB44C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E5AD1E31CBA91F900CB44C6 /* Assets.xcassets */; };
 		3E5AD1E71CBA91F900CB44C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5AD1E51CBA91F900CB44C6 /* LaunchScreen.storyboard */; };
 		3E987BFE1CBBB1A0004C7259 /* NormalMapFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E987BFD1CBBB1A0004C7259 /* NormalMapFilter.swift */; };
+		3EC4FB541CBBD82700BC5949 /* normalmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC4FB531CBBD82700BC5949 /* normalmap.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3E5AD1E61CBA91F900CB44C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E5AD1E81CBA91F900CB44C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E987BFD1CBBB1A0004C7259 /* NormalMapFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalMapFilter.swift; sourceTree = "<group>"; };
+		3EC4FB531CBBD82700BC5949 /* normalmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normalmap.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		3E5AD1DB1CBA91F900CB44C6 /* SceneKitProceduralNormalMapping */ = {
 			isa = PBXGroup;
 			children = (
+				3EC4FB531CBBD82700BC5949 /* normalmap.png */,
 				3E5AD1DC1CBA91F900CB44C6 /* AppDelegate.swift */,
 				3E5AD1DE1CBA91F900CB44C6 /* ViewController.swift */,
 				3E5AD1E01CBA91F900CB44C6 /* Main.storyboard */,
@@ -128,6 +131,7 @@
 				3E5AD1E71CBA91F900CB44C6 /* LaunchScreen.storyboard in Resources */,
 				3E5AD1E41CBA91F900CB44C6 /* Assets.xcassets in Resources */,
 				3E5AD1E21CBA91F900CB44C6 /* Main.storyboard in Resources */,
+				3EC4FB541CBBD82700BC5949 /* normalmap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
